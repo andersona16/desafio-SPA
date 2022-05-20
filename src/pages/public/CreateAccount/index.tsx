@@ -13,6 +13,7 @@ import spaGroup from '../../../assets/img/logo-socialdev.jpg';
 import Button from '../../../components/Form/Button';
 import { InputGroup } from '../../../components/Form/InputGroup';
 import { Input } from '../../../components/Form/Input';
+import { Link } from 'react-router-dom';
 
 const CreateAccount: FC = () => {
   return (
@@ -39,7 +40,8 @@ const CreateAccount: FC = () => {
                 width="195px"
               />
             </FormRow>
-            <p>OR</p>
+
+            <span>OR</span>
 
             <FormRow>
               <InputGroup>
@@ -58,19 +60,25 @@ const CreateAccount: FC = () => {
             </InputGroup>
 
             <InputGroup>
-              <label>Username</label>
+              <label>
+                Username <span>(only letters, numbers, and underscores)</span>{' '}
+              </label>
               <Input type="text" />
             </InputGroup>
 
             <InputGroup>
-              <label>Password</label>
+              <label>
+                Password <span>(min. 8 char)</span>
+              </label>
               <Input type="password" name="" id="" />
             </InputGroup>
-            <Button children="Create" />
+            <Link to="/">
+              Create
+            </Link>
 
             <p>
-              By joining, you agree to the <span>Terms</span> and{' '}
-              <span>Privacy Policy.</span>
+              By joining, you agree to the <u>Terms</u> and{' '}
+              <u>Privacy Policy.</u>
             </p>
           </Form>
         </Content>

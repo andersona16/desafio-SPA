@@ -10,21 +10,19 @@ export const Container = styled.div<IInputGroupProps>`
   flex-direction: column;
 
   flex: 1;
-  height: 70px;
 
   > div {
     flex: 1;
     max-width: 100%;
   }
 
-  > label {
+  label {
     font-size: 16px;
     color: #fff;
 
-    > span {
-      color: #c53030;
+     span {
+      color: #B0B0B0;
       font-size: 14px;
-      margin-left: 4px;
     }
   }
 `;

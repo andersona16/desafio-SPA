@@ -46,10 +46,15 @@ export const Form = styled.div`
   align-items: center;
   gap: 20px;
 
-  span {
-    color: white;
-    text-decoration: underline;
-    font-size: 12px;
+  div {
+    display: flex;
+    justify-content: space-between;
+    span,
+    a {
+      color: white;
+      text-decoration: underline;
+      font-size: 14px;
+    }
   }
 
   p {
@@ -61,4 +66,51 @@ export const Form = styled.div`
 export const FormRow = styled.div`
   display: flex;
   gap: 10px;
+
+  > button {
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+`;
+
+export const LineButton = styled.div`
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 56px;
+  text-align: center;
+
+  a:nth-child(1) {
+    width: 400px;
+    height: 30px;
+
+    color: #fff;
+    font-size: 16px;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    background: none;
+    cursor: pointer;
+
+    align-items: center;
+    text-decoration: none;
+  }
+
+  a:nth-child(2) {
+    display: flex;
+    justify-content: center;
+    width: 400px;
+    height: 60px;
+
+    color: #fff;
+    font-size: 16px;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    background: none;
+    cursor: pointer;
+    text-decoration: none;
+
+    align-items: center;
+  }
 `;

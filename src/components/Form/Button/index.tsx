@@ -24,7 +24,7 @@ const Button = forwardRef<HTMLButtonElement, IButtonProps>(
         <>
           {Icon && (
             <Icon
-              size={24}
+              size={14}
               style={
                 Icon && !children ? { marginRight: 0 } : { marginRight: 8 }
               }

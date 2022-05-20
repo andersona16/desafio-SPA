@@ -8,7 +8,7 @@ export default createGlobalStyle`
         outline: 0;
         font-family: 'Poppins', sans-serif;
 
-
+        
 
 
         /* background-color: #121F26; */

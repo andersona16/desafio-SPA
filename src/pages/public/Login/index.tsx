@@ -6,6 +6,7 @@ import {
   ImageWrapper,
   Form,
   FormRow,
+  LineButton,
 } from './styles';
 import { FaGithub, FaGoogle } from 'react-icons/fa';
 
@@ -13,6 +14,7 @@ import spaGroup from '../../../assets/img/logo-socialdev.jpg';
 import Button from '../../../components/Form/Button';
 import { InputGroup } from '../../../components/Form/InputGroup';
 import { Input } from '../../../components/Form/Input';
+import { Link } from 'react-router-dom';
 
 const Login: FC = () => {
   return (
@@ -31,33 +33,33 @@ const Login: FC = () => {
             </InputGroup>
 
             <InputGroup>
-              <label>Password</label>
+              <div>
+                <label>Password</label>
+                <Link to="/forgot-password">Forgot your password?</Link>
+              </div>
+
               <Input type="password" name="" id="" />
             </InputGroup>
-            <Button children="Create" />
 
             <FormRow>
               <Button
-                children="Use Google account"
+                children="Login with Google"
                 icon={FaGoogle}
                 height="30px"
                 width="195px"
               />
               <Button
-                children="Use GitHub account"
+                children="Login with Github"
                 icon={FaGithub}
                 height="30px"
                 width="195px"
               />
             </FormRow>
 
-            <Button children="Login" height="30px" width="400px" />
-
-            <Button
-              children="Create your account"
-              height="60px"
-              width="400px"
-            />
+            <LineButton>
+              <Link to="/feed">Login</Link>
+              <Link to="/create-account">Create your account</Link>
+            </LineButton>
           </Form>
         </Content>
       </Container>

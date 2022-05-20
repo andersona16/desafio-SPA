@@ -46,15 +46,39 @@ export const Form = styled.div`
   align-items: center;
   gap: 20px;
 
-  span {
-    color: white;
-    text-decoration: underline;
-    font-size: 12px;
+  button {
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
 
   p {
     color: white;
     font-size: 12px;
+  }
+
+  > span {
+    font-size: 14px;
+    color: #fff;
+  }
+  a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 400px;
+    height: 30px;
+
+    color: #fff;
+    font-size: 16px;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    background: none;
+    cursor: pointer;
+
+    align-items: center;
+    text-decoration: none;
   }
 `;
 
