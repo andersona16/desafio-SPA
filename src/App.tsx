@@ -1,8 +1,12 @@
+import { ForgotPaassword } from './pages/public/ForgotPassword';
+import Global from './styles/global';
+
 function App() {
   return (
-    <div>
-      <h1>Teste</h1>
-    </div>
+    <>
+      <ForgotPaassword />
+      <Global />
+    </>
   );
 }
 
