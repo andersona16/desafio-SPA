@@ -15,8 +15,15 @@ import Button from '../../../components/Form/Button';
 import { InputGroup } from '../../../components/Form/InputGroup';
 import { Input } from '../../../components/Form/Input';
 import { Link } from 'react-router-dom';
+import { githubProvider, googleProvider } from '../../../config/authMethods';
+import { socialMediaAuth } from '../../../services/auth';
 
 const Login: FC = () => {
+  const handleOnClick = async (provider: any) => {
+    const res = await socialMediaAuth(provider);
+    console.log(res);
+  };
+
   return (
     <>
       <Container>
@@ -43,12 +50,14 @@ const Login: FC = () => {
 
             <FormRow>
               <Button
+                onClick={() => handleOnClick(googleProvider)}
                 children="Login with Google"
                 icon={FaGoogle}
                 height="30px"
                 width="195px"
               />
               <Button
+                onClick={() => handleOnClick(githubProvider)}
                 children="Login with Github"
                 icon={FaGithub}
                 height="30px"

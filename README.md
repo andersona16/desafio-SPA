@@ -42,5 +42,5 @@ As seguintes ferramentas foram usadas na construção do projeto:
 
 ## 🦸 Autor
 
-[![Linkedin Badge](https://img.shields.io/badge/-Anderson-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/andersonaraujjo/)](https://www.linkedin.com/in/andersonaraujjo/)
-[![Gmail Badge](https://img.shields.io/badge/-andersonaraujoc1@gmail.com-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:andersonaraujoc1@gmail.com)](mailto:andersonaraujoc1@gmail.com)
+[![Linkedin Badge](https://img.shields.io/badge/-Anderson-blue?style=flat-square&logo=Linkedin&logoColor=var(--colors-white);&link=https://www.linkedin.com/in/andersonaraujjo/)](https://www.linkedin.com/in/andersonaraujjo/)
+[![Gmail Badge](https://img.shields.io/badge/-andersonaraujoc1@gmail.com-c14438?style=flat-square&logo=Gmail&logoColor=var(--colors-white);&link=mailto:andersonaraujoc1@gmail.com)](mailto:andersonaraujoc1@gmail.com)

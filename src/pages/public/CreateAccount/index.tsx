@@ -14,8 +14,15 @@ import Button from '../../../components/Form/Button';
 import { InputGroup } from '../../../components/Form/InputGroup';
 import { Input } from '../../../components/Form/Input';
 import { Link } from 'react-router-dom';
+import { socialMediaAuth } from '../../../services/auth';
+import { githubProvider, googleProvider } from '../../../config/authMethods';
 
 const CreateAccount: FC = () => {
+  const handleOnClick = async (provider: any) => {
+    const res = await socialMediaAuth(provider);
+    console.log(res);
+  };
+
   return (
     <>
       <Container>
@@ -28,12 +35,14 @@ const CreateAccount: FC = () => {
 
             <FormRow>
               <Button
+                onClick={() => handleOnClick(googleProvider)}
                 children="Use Google account"
                 icon={FaGoogle}
                 height="30px"
                 width="195px"
               />
               <Button
+                onClick={() => handleOnClick(githubProvider)}
                 children="Use GitHub account"
                 icon={FaGithub}
                 height="30px"
@@ -72,9 +81,7 @@ const CreateAccount: FC = () => {
               </label>
               <Input type="password" name="" id="" />
             </InputGroup>
-            <Link to="/">
-              Create
-            </Link>
+            <Link to="/">Create</Link>
 
             <p>
               By joining, you agree to the <u>Terms</u> and{' '}

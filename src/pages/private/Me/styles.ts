@@ -45,14 +45,14 @@ export const Form = styled.div`
     justify-content: space-between;
     span,
     a {
-      color: white;
+      color: var(--colors-white);;
       text-decoration: underline;
       font-size: 14px;
     }
   }
 
   p {
-    color: white;
+    color: var(--colors-white);;
     font-size: 12px;
   }
 `;

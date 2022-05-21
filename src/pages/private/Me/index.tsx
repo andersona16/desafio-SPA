@@ -1,4 +1,4 @@
-import { FC } from 'react';
+import { FC, useEffect, useState } from 'react';
 import { Header } from '../../../components/layouts/Header';
 import {
   Container,
@@ -13,8 +13,23 @@ import bannerSPA from '../../../assets/img/banner-user.jpg';
 import userSPA from '../../../assets/img/profile-picture-2.jpg';
 import { InputGroup } from '../../../components/Form/InputGroup';
 import { Input } from '../../../components/Form/Input';
+import { APIMe } from '../../../@types';
+import api from '../../../services/api';
 
 const Me: FC = () => {
+  const [profile, setProfile] = useState<APIMe>();
+
+  useEffect(() => {
+    async function loadingProfile() {
+      const response = await api.get<APIMe>('/users/andersona16');
+
+      console.log(response);
+      setProfile(response.data);
+    }
+
+    loadingProfile();
+  }, []);
+
   return (
     <>
       <Header />
@@ -25,28 +40,31 @@ const Me: FC = () => {
           </ImageWrapper>
 
           <UserImage>
-            <img src={userSPA} alt="User " />
+            <img src={userSPA} alt="User" />
           </UserImage>
 
           <Form>
             <FormRow>
               <InputGroup>
                 <label>First Name</label>
-                <Input type="email" name="" id="" />
+                <Input type="" placeholder='eae' />
+                {profile?.name}
               </InputGroup>
               <InputGroup>
                 <label>Last Name</label>
-                <Input type="email" name="" id="" />
+                <Input type="" name="" id="" />
               </InputGroup>
             </FormRow>
             <FormRow>
               <InputGroup>
                 <label>Company</label>
-                <Input type="email" name="" id="" />
+                <Input type="" />
+                {profile?.company}
               </InputGroup>
               <InputGroup>
                 <label>Position</label>
-                <Input type="email" name="" id="" />
+                <Input type="" />
+                {profile?.bio}
               </InputGroup>
             </FormRow>
           </Form>

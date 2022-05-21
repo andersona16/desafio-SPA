@@ -169,24 +169,6 @@ export const MenuRight = styled.div`
   }
 `;
 
-export const UserName = styled.li`
-  display: flex;
-  align-items: center;
-  justify-content: flex-start;
-
-  font-size: 16px !important;
-  font-weight: 600;
-  color: #181c32 !important;
-
-  border-bottom: 1px solid #ebedf3;
-
-  margin-bottom: 6px;
-
-  &:hover {
-    background-color: white !important;
-  }
-`;
-
 export const CustomButton = styled.button`
   display: flex;
   align-items: center;

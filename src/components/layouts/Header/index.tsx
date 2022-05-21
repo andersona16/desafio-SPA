@@ -1,18 +1,11 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import { FC } from 'react';
-import {
-  FiSearch,
-  FiHome,
-  FiMessageSquare,
-  FiUser,
-  FiSettings,
-  FiLogOut,
-} from 'react-icons/fi';
+import { FiSearch, FiHome, FiMessageSquare } from 'react-icons/fi';
 import { Link } from 'react-router-dom';
 
 import logoImg from '../../../assets/img/logo-sd.jpg';
 
-import { Container, CustomButton, Menu, MenuLeft, MenuRight } from './styles';
+import { Container, Menu, MenuLeft, MenuRight } from './styles';
 import { Input } from '../../Form/Input';
 import userSPA from '../../../assets/img/profile-picture-2.jpg';
 

@@ -38,6 +38,10 @@ export const ImageWrapper = styled.div`
   justify-content: center;
 
   justify-self: flex-end;
+  img {
+    width: 235px;
+    height: 78px;
+  }
 `;
 
 export const Form = styled.div`
@@ -54,7 +58,7 @@ export const Form = styled.div`
   }
 
   p {
-    color: white;
+    color: var(--colors-white);;
     font-size: 12px;
   }
 

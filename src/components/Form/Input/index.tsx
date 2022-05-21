@@ -9,18 +9,20 @@ interface IInputProps extends InputHTMLAttributes<HTMLInputElement> {
   type?: string;
   height?: string;
   width?: string;
+  children?: string;
+  title?: string;
 }
 
 const Input: FC<IInputProps> = ({
-  name,
-  type,
-  placeholder,
   height,
   width,
+  children,
   icon: Icon,
+  placeholder,
 }) => {
   return (
     <Container>
+      <span>{children}</span>
       {Icon && <Icon size={12} />}
       <input style={{ height, width }} />
     </Container>

@@ -15,7 +15,7 @@ function App() {
           <Route path="/create-account" element={<CreateAccount />} />
           <Route path="/forgot-password" element={<ForgotPaassword />} />
           <Route path="/feed" element={<Feed />} />
-          <Route path="/Me" element={<Me />} />
+          <Route path="/me" element={<Me />} />
         </Routes>
       </BrowserRouter>
       <Global />
