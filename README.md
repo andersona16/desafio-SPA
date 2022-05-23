@@ -23,9 +23,9 @@ Desenvolver o Frontend de uma REDE SOCIAL FAKE para desenvolvedores
 </details>
 
 - Web
-<details>
 
-</details>
+[Projeto Final](https://desafio-spa-social-q62j1nr71-andersona16.vercel.app/)
+
 
 #### 🧭 Rodando a aplicação web (Frontend)
 
