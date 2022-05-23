@@ -17,7 +17,7 @@ export interface APIConnection {
   avatar_url?: string;
 }
 
-export interface APIMe { 
+export interface APIMe {
   name: string;
   bio?: string;
   company?: string;

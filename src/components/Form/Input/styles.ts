@@ -8,5 +8,11 @@ export const Container = styled.div`
     color: #fff;
     border: none;
     border-bottom: 1px solid #f4f4f4;
+
+    transition: border-bottom 0.1s;
+
+    &:hover {
+      border-bottom: 1px solid #fe6843;
+    }
   }
 `;

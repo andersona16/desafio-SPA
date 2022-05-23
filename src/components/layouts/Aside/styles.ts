@@ -5,6 +5,10 @@ export const Container = styled.div``;
 export const Content = styled.div`
   width: 362px;
   height: 600px;
+  background-color: #182328;
+
+  border-radius: 10px;
+  margin-top: 23px;
 `;
 
 export const ImageWrapper = styled.div`
@@ -21,7 +25,7 @@ export const ImageWrapper = styled.div`
 
 export const UserImage = styled.div`
   position: relative;
-  bottom: 35px;
+  bottom: 60px;
 
   display: flex;
   align-items: center;
@@ -40,6 +44,7 @@ export const NameProfession = styled.div`
   align-items: center;
 
   border-bottom: 1px solid #8e8e8e;
+  margin-top: -50px;
 
   h1 {
     font-size: 14px;

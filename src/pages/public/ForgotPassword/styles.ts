@@ -46,22 +46,37 @@ export const ImageWrapper = styled.div`
 `;
 
 export const Form = styled.div`
+  @media screen and (max-width: 375px) {
+    input,
+    p,
+    button {
+      max-width: 340px;
+    }
+  }
+  @media screen and (max-width: 320px) {
+    input,
+    p,
+    button {
+      max-width: 280px;
+    }
+  }
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 20px;
 
   span {
-    color: var(--colors-white);;
+    color: var(--colors-white);
     text-decoration: underline;
     font-size: 12px;
   }
 
   p {
-    color: var(--colors-white);;
+    color: var(--colors-white);
     font-size: 14px;
     width: 400px;
     height: 44px;
+    text-align: center;
   }
 `;
 

@@ -1,8 +1,11 @@
 import styled from 'styled-components';
 
 export const Container = styled.div`
+  margin-top: 10px;
   display: flex;
+  flex-direction: column;
   justify-content: center;
+  align-items: center;
 `;
 
 export const CardUser = styled.div`
@@ -11,6 +14,9 @@ export const CardUser = styled.div`
   height: 50px;
   border-radius: 10px;
 
+  & + * {
+    margin-top: 10px;
+  }
   h1 {
     font-size: 14px;
     color: #fff;

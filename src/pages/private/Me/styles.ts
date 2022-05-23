@@ -1,11 +1,12 @@
 import styled from 'styled-components';
 
-export const Container = styled.div`
+export const Container = styled.main`
+  display: flex;
+  justify-content: center;
   background-color: #2a363c;
-  position: relative;
-  height: 91vh;
-  width: 100vw;
-  padding: 21px;
+  height: 100vh;
+
+  padding: 20px;
 `;
 
 export const Content = styled.div`
@@ -45,14 +46,14 @@ export const Form = styled.div`
     justify-content: space-between;
     span,
     a {
-      color: var(--colors-white);;
+      color: var(--colors-white);
       text-decoration: underline;
       font-size: 14px;
     }
   }
 
   p {
-    color: var(--colors-white);;
+    color: var(--colors-white);
     font-size: 12px;
   }
 `;

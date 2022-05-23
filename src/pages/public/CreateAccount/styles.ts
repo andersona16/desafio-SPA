@@ -58,7 +58,7 @@ export const Form = styled.div`
   }
 
   p {
-    color: var(--colors-white);;
+    color: var(--colors-white);
     font-size: 12px;
   }
 
@@ -66,7 +66,7 @@ export const Form = styled.div`
     font-size: 14px;
     color: #fff;
   }
-  a {
+  > a {
     display: flex;
     justify-content: center;
     align-items: center;

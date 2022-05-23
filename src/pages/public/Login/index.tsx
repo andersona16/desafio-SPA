@@ -31,7 +31,9 @@ const Login: FC = () => {
         <Content>
           <Form>
             <ImageWrapper>
-              <img src={spaGroup} alt="Grupo SPA" />
+              <Link to="/">
+                <img src={spaGroup} alt="Grupo SPA" />
+              </Link>
             </ImageWrapper>
 
             <InputGroup>

@@ -46,24 +46,44 @@ export const ImageWrapper = styled.div`
 `;
 
 export const Form = styled.div`
+  @media screen and (max-width: 395px) {
+    text-align: center;
+    input,
+    a {
+      max-width: 340px;
+    }
+  }
+  @media screen and (max-width: 320px) {
+    text-align: center;
+    input,
+    a {
+      max-width: 260px;
+    }
+  }
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 20px;
 
   div {
+    @media (max-width: 375px) {
+      flex-direction: column;
+    }
+    @media (max-width: 395px) {
+      flex-direction: column;
+    }
     display: flex;
     justify-content: space-between;
     span,
     a {
-      color: var(--colors-white);;
+      color: var(--colors-white);
       text-decoration: underline;
       font-size: 14px;
     }
   }
 
   p {
-    color: var(--colors-white);;
+    color: var(--colors-white);
     font-size: 12px;
   }
 `;

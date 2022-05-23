@@ -6,11 +6,12 @@ export default createGlobalStyle`
         padding: 0;
         box-sizing: border-box ;
         outline: 0;
+        font-family: 'Poppins', sans-serif;
+
         /* background-color: #121F26; */
     }
 
     body {
-      font-family: 'Poppins', sans-serif;
 
     }
 
@@ -24,5 +25,10 @@ export default createGlobalStyle`
     svg { 
       color: var(--colors-white);
       margin-left: 10px;
+    }
+
+    img {
+      max-width: 100%;
+     max-height: 100%;
     }
 `;

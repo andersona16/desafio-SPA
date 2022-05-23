@@ -63,6 +63,9 @@ export const FormButton = styled.div`
       height: 50px;
     }
   }
+  svg {
+    margin: 0px;
+  }
 `;
 
 export const CustomButton = styled.button`
@@ -72,6 +75,7 @@ export const CustomButton = styled.button`
   justify-content: center;
   background: transparent;
   border-radius: 10px;
+  gap: 7px;
 
   border: 1px solid #fff;
   color: #fff;

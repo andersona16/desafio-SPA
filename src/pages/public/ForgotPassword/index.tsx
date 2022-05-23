@@ -13,6 +13,7 @@ import spaGroup from '../../../assets/img/logo-socialdev.jpg';
 import Button from '../../../components/Form/Button';
 import { InputGroup } from '../../../components/Form/InputGroup';
 import { Input } from '../../../components/Form/Input';
+import { Link } from 'react-router-dom';
 
 const ForgotPaassword: FC = () => {
   return (
@@ -22,7 +23,9 @@ const ForgotPaassword: FC = () => {
       <Content>
         <Form>
           <ImageWrapper>
-            <img src={spaGroup} alt="Grupo SPA" />
+            <Link to="/">
+              <img src={spaGroup} alt="Grupo SPA" />
+            </Link>
           </ImageWrapper>
 
           <FormRow>
@@ -37,7 +40,11 @@ const ForgotPaassword: FC = () => {
             <Input type="email" name="" id="" />
           </InputGroup>
 
-          <Button children="Send password reset instructions" height="30px" width="400px" />
+          <Button
+            children="Send password reset instructions"
+            height="30px"
+            width="400px"
+          />
         </Form>
       </Content>
     </Container>
