@@ -24,6 +24,8 @@ export const Main = styled.main`
   padding: 40px 20px;
   background-color: #2a363c;
   height: 100vh;
+
+  height: 100%;
 `;
 
 export const Container = styled.div`

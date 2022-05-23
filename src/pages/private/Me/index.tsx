@@ -1,5 +1,4 @@
 import { FC, useEffect, useState } from 'react';
-import { Header } from '../../../components/layouts/Header';
 import {
   Container,
   Content,
@@ -32,7 +31,6 @@ const Me: FC = () => {
 
   return (
     <>
-      <Header />
       <Container>
         <Content>
           <ImageWrapper>
@@ -41,13 +39,14 @@ const Me: FC = () => {
 
           <UserImage>
             <img src={userSPA} alt="User" />
+            <span>Click to change</span>
           </UserImage>
 
           <Form>
             <FormRow>
               <InputGroup>
                 <label>First Name</label>
-                <Input name="eae" type="" placeholder="eae"></Input>
+                <Input name="" type="" placeholder=""></Input>
               </InputGroup>
               <InputGroup>
                 <label>Last Name</label>
@@ -57,11 +56,11 @@ const Me: FC = () => {
             <FormRow>
               <InputGroup>
                 <label>Company</label>
-                <Input name="eae" type="" />
+                <Input name="" type="" />
               </InputGroup>
               <InputGroup>
                 <label>Position</label>
-                <Input name="eae" type="" />
+                <Input name="" type="" />
               </InputGroup>
             </FormRow>
           </Form>

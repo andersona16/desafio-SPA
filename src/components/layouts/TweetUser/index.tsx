@@ -29,7 +29,7 @@ const TweetUser: FC = () => {
               <span>2h</span>
             </div>
             <div>
-              <span>+ follow</span>
+              <p>+ follow</p>
             </div>
           </TweetUserInformation>
 
@@ -76,7 +76,7 @@ const TweetUser: FC = () => {
               <span>5h</span>
             </div>
             <div>
-              <span>+ follow</span>
+              <p>+ follow</p>
             </div>
           </TweetUserInformation>
 

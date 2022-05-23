@@ -40,10 +40,16 @@ export const TweetUserInformation = styled.div`
   > div {
     display: flex;
     flex-direction: column;
+    width: 82%;
 
     > span {
       font-size: 10px;
       color: var(--colors-gray);
+    }
+    > p {
+      font-size: 10px;
+      color: var(--colors-gray);
+      text-align: end;
     }
   }
 

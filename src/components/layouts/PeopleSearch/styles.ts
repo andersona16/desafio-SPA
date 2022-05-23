@@ -42,5 +42,6 @@ export const ImageWrapper = styled.div`
   > div:nth-child(3) {
     display: flex;
     justify-content: end;
+    width: 90px;
   }
 `;

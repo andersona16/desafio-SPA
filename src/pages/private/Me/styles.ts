@@ -27,12 +27,22 @@ export const ImageWrapper = styled.div`
 `;
 
 export const UserImage = styled.div`
+  display: flex;
+  flex-direction: column;
   position: relative;
   bottom: 77px;
 
   display: flex;
   align-items: center;
   justify-content: center;
+
+  span {
+    color: var(--colors-white);
+    width: 39px;
+    font-size: 10px;
+    position: relative;
+    bottom: 40px;
+  }
 `;
 
 export const Form = styled.div`

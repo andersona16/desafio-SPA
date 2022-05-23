@@ -12,9 +12,13 @@ Desenvolver o Frontend de uma REDE SOCIAL FAKE para desenvolvedores
 <details>
 
 <h1 align="center">
-    <img alt="SPA" title="#SPA-desafio" src="src/assets/img/ImagensProjeto/Mobile/Forget.PNG"/>
-    <img alt="SPA" title="#SPA-desafio" src="src/assets/img/ImagensProjeto/Mobile/CreateAccount.PNG"/>
+   <p>Login</p>
     <img alt="SPA" title="#SPA-desafio" src="src/assets/img/ImagensProjeto/Mobile/Login.png"/>
+    <p>Forget Passoword</p>
+    <img alt="SPA" title="#SPA-desafio" src="src/assets/img/ImagensProjeto/Mobile/Forget.PNG"/>
+    <p>Create Account</p>
+    <img alt="SPA" title="#SPA-desafio" src="src/assets/img/ImagensProjeto/Mobile/CreateAccount.PNG"/>
+
 </h1>
 </details>
 

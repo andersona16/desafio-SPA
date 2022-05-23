@@ -1,26 +1,17 @@
-import { BrowserRouter, Route, Routes } from 'react-router-dom';
-import { Login } from './pages/public/Login';
-import { CreateAccount } from './pages/public/CreateAccount';
-import { ForgotPaassword } from './pages/public/ForgotPassword';
-import { Feed } from './pages/private/Feed';
-import { Me } from './pages/private/Me';
+import { BrowserRouter } from 'react-router-dom';
+import { Header } from './components/layouts/Header';
+import { AppRoutes } from './routes/app.routes';
+
 import Global from './styles/global';
-import { ChatUsers } from './pages/private/ChatUsers';
 
 function App() {
   return (
     <>
       <BrowserRouter>
-        <Routes>
-          <Route path="/" element={<Login />} />
-          <Route path="/create-account" element={<CreateAccount />} />
-          <Route path="/forgot-password" element={<ForgotPaassword />} />
-          <Route path="/feed" element={<Feed />} />
-          <Route path="/me" element={<Me />} />
-          <Route path="/chatUsers" element={<ChatUsers />} />
-        </Routes>
+        <Header />
+        <AppRoutes />
+        <Global />
       </BrowserRouter>
-      <Global />
     </>
   );
 }

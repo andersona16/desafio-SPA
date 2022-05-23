@@ -24,7 +24,7 @@ const PostSomething: FC = () => {
             </ImageWrapper>
             <div>
               <label>What are you working on?</label>
-              <Input name="eae " type="text" />
+              <Input name=" " type="text" />
             </div>
           </FormRow>
 
