@@ -5,6 +5,19 @@
 ### 💻 Sobre o projeto
 Desenvolver o Frontend de uma REDE SOCIAL FAKE para desenvolvedores
 
+### Screenshots
+- Mobile
+<details>
+![Login](ImagensProjeto\Mobile\Login.png)
+![Create your Account](ImagensProjeto\Mobile\CreateAccount.PNG)
+![Forgot Password](ImagensProjeto\Mobile\Forget.PNG)
+</details>
+
+- Web
+<details>
+
+</details>
+
 
 #### 🧭 Rodando a aplicação web (Frontend)
 
