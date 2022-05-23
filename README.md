@@ -8,9 +8,9 @@ Desenvolver o Frontend de uma REDE SOCIAL FAKE para desenvolvedores
 ### Screenshots
 - Mobile
 <details>
-![Login](/ImagensProjeto/Mobile/Login.png)
-![Create your Account](/ImagensProjeto/Mobile/CreateAccount.PNG)
-![Forgot Password](/ImagensProjeto/Mobile/Forget.PNG)
+![Login](/src/assets/img/ImagensProjeto/Mobile/Login.png)
+![Create your Account](/src/assets/img/ImagensProjeto/Mobile/CreateAccount.PNG)
+![Forgot Password](/src/assets/img/ImagensProjeto/Mobile/Forget.PNG)
 </details>
 
 - Web
