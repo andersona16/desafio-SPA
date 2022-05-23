@@ -47,8 +47,7 @@ const Me: FC = () => {
             <FormRow>
               <InputGroup>
                 <label>First Name</label>
-                <Input type="" placeholder='eae' />
-                {profile?.name}
+                <Input name="eae" type="" placeholder="eae"></Input>
               </InputGroup>
               <InputGroup>
                 <label>Last Name</label>
@@ -58,13 +57,11 @@ const Me: FC = () => {
             <FormRow>
               <InputGroup>
                 <label>Company</label>
-                <Input type="" />
-                {profile?.company}
+                <Input name="eae" type="" />
               </InputGroup>
               <InputGroup>
                 <label>Position</label>
-                <Input type="" />
-                {profile?.bio}
+                <Input name="eae" type="" />
               </InputGroup>
             </FormRow>
           </Form>

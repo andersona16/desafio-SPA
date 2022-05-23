@@ -19,14 +19,16 @@ import styled from 'styled-components';
 //   flex-direction: column;
 // `;
 
-export const Container = styled.main`
+export const Main = styled.main`
   display: flex;
-  justify-content: center;
-
+  padding: 40px 20px;
   background-color: #2a363c;
   height: 100vh;
 `;
 
-export const Content = styled.div`
-  margin-top: 20px;
+export const Container = styled.div`
+  display: flex;
+  margin: 0 auto;
 `;
+
+export const Content = styled.div``;

@@ -3,8 +3,6 @@ import styled from 'styled-components';
 export const Container = styled.div``;
 
 export const Content = styled.div`
-  width: 1018px;
-  height: 100px;
   background-color: #182328;
   border-radius: 10px;
   margin-left: 17px;
@@ -17,6 +15,8 @@ export const Form = styled.div`
 `;
 
 export const FormRow = styled.div`
+  width: 100%;
+  height: 100%;
   display: flex;
 
   label {
@@ -24,6 +24,8 @@ export const FormRow = styled.div`
     color: #fff;
   }
   input {
+    max-width: 100%;
+    max-height: 100%;
     width: 660px;
     height: 38px;
   }
@@ -42,6 +44,8 @@ export const FormRow = styled.div`
 export const ImageWrapper = styled.div`
   img {
     width: 50px;
+    max-width: 100%;
+    max-height: 100%;
   }
 `;
 

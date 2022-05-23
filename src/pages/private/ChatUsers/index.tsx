@@ -3,20 +3,20 @@ import { Aside } from '../../../components/layouts/Aside';
 import { Header } from '../../../components/layouts/Header';
 import { MessageUsers } from '../../../components/layouts/MessagesUsers';
 
-import { Container, Content, PublisAndFeed } from './style';
+import { Container, Content, Main } from './style';
 
 const ChatUsers: FC = () => {
   return (
     <>
       <Header />
-      <Container>
-        <Content>
-          <Aside />
-        </Content>
-        <PublisAndFeed>
+      <Main>
+        <Container>
+          <Content>
+            <Aside />
+          </Content>
           <MessageUsers />
-        </PublisAndFeed>
-      </Container>
+        </Container>
+      </Main>
     </>
   );
 };

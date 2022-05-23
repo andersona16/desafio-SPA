@@ -22,7 +22,7 @@ const Input: FC<IInputProps> = ({
 }) => {
   return (
     <Container>
-      <span>{children}</span>
+      <label>{children}</label>
       {Icon && <Icon size={12} />}
       <input style={{ height, width }} />
     </Container>

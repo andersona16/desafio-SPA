@@ -1,10 +1,11 @@
 import { FC, useEffect, useMemo, useState } from 'react';
 import { CardUser, Container, ImageWrapper } from './styles';
 
-import WomanUser from '../../../assets/img/post-pisture-user-woman.jpg';
 import api from '../../../services/api';
 import { APIConnection } from '../../../@types';
-import { FiHome } from 'react-icons/fi';
+
+import WomanUser from '../../../assets/img/post-pisture-user-woman.jpg';
+import MenUser from '../../../assets/img/post-pisture-user-men.jpg';
 
 const PeopleSearch: FC = () => {
   const [connection, setConnection] = useState<APIConnection[]>();
@@ -48,9 +49,9 @@ const PeopleSearch: FC = () => {
             <span>{login}</span>
           ))} */}
           <ImageWrapper>
-            <img src={WomanUser} alt="User 1" />
+            <img src={MenUser} alt="User 1" />
             <div>
-              <h1>Woman User 1</h1>
+              <h1>Man User 2</h1>
               <span>Developer Frontend</span>
             </div>
             <div>
@@ -65,7 +66,7 @@ const PeopleSearch: FC = () => {
           <ImageWrapper>
             <img src={WomanUser} alt="User 1" />
             <div>
-              <h1>Woman User 1</h1>
+              <h1>Woman User 2</h1>
               <span>Developer Frontend</span>
             </div>
             <div>
@@ -78,9 +79,9 @@ const PeopleSearch: FC = () => {
             <span>{login}</span>
           ))} */}
           <ImageWrapper>
-            <img src={WomanUser} alt="User 1" />
+            <img src={MenUser} alt="User 1" />
             <div>
-              <h1>Woman User 1</h1>
+              <h1>Man User 2</h1>
               <span>Developer Frontend</span>
             </div>
             <div>

@@ -3,21 +3,25 @@
 # Desafio Prático
 
 ### 💻 Sobre o projeto
+
 Desenvolver o Frontend de uma REDE SOCIAL FAKE para desenvolvedores
 
 ### Screenshots
+
 - Mobile
 <details>
-![Login](src/assets/img/ImagensProjeto/Mobile/Login.png)
-![Create your Account](src/assets/img/ImagensProjeto/Mobile/CreateAccount.PNG)
-![Forgot Password](src/assets/img/ImagensProjeto/Mobile/Forget.PNG)
+
+<h1 align="center">
+    <img alt="SPA" title="#SPA-desafio" src="src/assets/img/ImagensProjeto/Mobile/Forget.PNG"/>
+    <img alt="SPA" title="#SPA-desafio" src="src/assets/img/ImagensProjeto/Mobile/CreateAccount.PNG"/>
+    <img alt="SPA" title="#SPA-desafio" src="src/assets/img/ImagensProjeto/Mobile/Login.png"/>
+</h1>
 </details>
 
 - Web
 <details>
 
 </details>
-
 
 #### 🧭 Rodando a aplicação web (Frontend)
 
@@ -42,7 +46,6 @@ $ yarn start
 
 ```
 
-
 ### 🛠 Tecnologias
 
 As seguintes ferramentas foram usadas na construção do projeto:
@@ -55,5 +58,5 @@ As seguintes ferramentas foram usadas na construção do projeto:
 
 ## 🦸 Autor
 
-[![Linkedin Badge](https://img.shields.io/badge/-Anderson-blue?style=flat-square&logo=Linkedin&logoColor=var(--colors-white);&link=https://www.linkedin.com/in/andersonaraujjo/)](https://www.linkedin.com/in/andersonaraujjo/)
-[![Gmail Badge](https://img.shields.io/badge/-andersonaraujoc1@gmail.com-c14438?style=flat-square&logo=Gmail&logoColor=var(--colors-white);&link=mailto:andersonaraujoc1@gmail.com)](mailto:andersonaraujoc1@gmail.com)
+[![Linkedin Badge](<https://img.shields.io/badge/-Anderson-blue?style=flat-square&logo=Linkedin&logoColor=var(--colors-white);&link=https://www.linkedin.com/in/andersonaraujjo/>)](https://www.linkedin.com/in/andersonaraujjo/)
+[![Gmail Badge](<https://img.shields.io/badge/-andersonaraujoc1@gmail.com-c14438?style=flat-square&logo=Gmail&logoColor=var(--colors-white);&link=mailto:andersonaraujoc1@gmail.com>)](mailto:andersonaraujoc1@gmail.com)

@@ -1,6 +1,10 @@
 import styled from 'styled-components';
 
 export const Container = styled.main`
+  @media screen and (max-width: 1445px) {
+    width: 100%;
+    padding: 40px;
+  }
   display: flex;
   flex-direction: column;
   width: 1018px;
@@ -55,6 +59,10 @@ export const UserMessages = styled.div`
 `;
 
 export const CommentsUsers = styled.div`
+  @media screen and (max-width: 768px) {
+    display: flex;
+    gap: 20px;
+  }
   display: flex;
   flex-direction: column;
   height: 100%;
@@ -153,6 +161,9 @@ export const CardUsers = styled.div`
     width: 36px;
     height: 36px;
     margin: 10px;
+  }
+  .estranho {
+    background-color: blue;
   }
 `;
 

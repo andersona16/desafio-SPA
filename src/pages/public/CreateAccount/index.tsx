@@ -61,27 +61,27 @@ const CreateAccount: FC = () => {
               </InputGroup>
               <InputGroup>
                 <label>Last Name</label>
-                <Input width="195px" type="text" />
+                <Input name="nmae" width="195px" type="text" />
               </InputGroup>
             </FormRow>
 
             <InputGroup>
               <label>Email</label>
-              <Input type="email" name="" id="" />
+              <Input name="eae" type="email" id="" />
             </InputGroup>
 
             <InputGroup>
               <label>
                 Username <span>(only letters, numbers, and underscores)</span>{' '}
               </label>
-              <Input type="text" />
+              <Input name="eae" type="text" />
             </InputGroup>
 
             <InputGroup>
               <label>
                 Password <span>(min. 8 char)</span>
               </label>
-              <Input type="password" name="" id="" />
+              <Input type="password" name="eae" id="" />
             </InputGroup>
             <Link to="/">Create</Link>
 

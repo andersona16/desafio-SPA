@@ -17,7 +17,6 @@ export const Content = styled.div`
 
 export const CardUser = styled.div`
   width: 959px;
-  height: 150px;
   border-radius: 10px;
   background-color: #182328;
   margin: 0 auto;
@@ -64,12 +63,17 @@ export const MessagerTweet = styled.div`
     font-size: 14px;
     color: var(--colors-white);
   }
+  img {
+    width: 381px;
+    height: 321px;
+  }
 `;
 
 export const TweetReactions = styled.div`
   display: flex;
 
   border-bottom: 1px solid var(--colors-gray);
+  margin-top: 15px;
   div {
     display: flex;
     align-items: center;
@@ -92,7 +96,7 @@ export const PostUserInteraction = styled.div`
     align-items: center;
     font-size: 8px;
 
-    width: 80px;
+    width: 90px;
     height: 15px;
 
     font-size: 8px;

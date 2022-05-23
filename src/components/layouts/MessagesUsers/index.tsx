@@ -16,6 +16,8 @@ import {
 } from './styles';
 
 import WomanUser from '../../../assets/img/post-pisture-user-woman.jpg';
+import userSPA from '../../../assets/img/profile-picture-2.jpg';
+import MenUser from '../../../assets/img/post-pisture-user-men.jpg';
 
 const MessageUsers: FC = () => {
   return (
@@ -30,10 +32,11 @@ const MessageUsers: FC = () => {
 
             <div>
               <Input
+                children=""
+                name="teste"
+                placeholder="test"
                 type="text"
                 icon={FiSearch}
-                name="search"
-                placeholder="search"
               />
             </div>
 
@@ -49,8 +52,8 @@ const MessageUsers: FC = () => {
                   <span>Me: hi, how is the new project going? </span>
                 </InfoUser>
               </CardUsers>
-              <CardUsers>
-                <img src={WomanUser} alt="User 1" />
+              <CardUsers className="estranho">
+                <img src={MenUser} alt="User 1" />
                 <InfoUser>
                   <div>
                     <h1>Man User 1</h1>
@@ -66,35 +69,35 @@ const MessageUsers: FC = () => {
             <CommentsUsers>
               <div>
                 <CardUsers>
-                  <img src={WomanUser} alt="User 1" />
+                  <img src={userSPA} alt="User 1" />
                   <InfoUser>
                     <div>
                       <h1>Woman User 1</h1>
                       <span>May 16</span>
                     </div>
 
-                    <span>Me: hi, how is the new project going? </span>
+                    <span>How is the progress of the project? </span>
                   </InfoUser>
                 </CardUsers>
               </div>
 
               <div>
                 <CardUsers>
-                  <img src={WomanUser} alt="User 1" />
+                  <img src={MenUser} alt="User 1" />
                   <InfoUser>
                     <div>
                       <h1>Woman User 1</h1>
                       <span>May 16</span>
                     </div>
 
-                    <span>Me: hi, how is the new project going? </span>
+                    <span>i'm finishing now. </span>
                   </InfoUser>
                 </CardUsers>
               </div>
             </CommentsUsers>
 
             <YourAnswer>
-              <Input />
+              <Input name="" />
 
               <div>
                 <div>

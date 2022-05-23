@@ -2,6 +2,8 @@ import styled from 'styled-components';
 
 export const Container = styled.div`
   input {
+    flex: 1;
+
     height: 36px;
     width: 400px;
     background: transparent;
