@@ -14,6 +14,7 @@ import { InputGroup } from '../../../components/Form/InputGroup';
 import { Input } from '../../../components/Form/Input';
 import { APIMe } from '../../../@types';
 import api from '../../../services/api';
+import { Header } from '../../../components/layouts/Header';
 
 const Me: FC = () => {
   const [profile, setProfile] = useState<APIMe>();
@@ -31,6 +32,8 @@ const Me: FC = () => {
 
   return (
     <>
+      <Header />
+
       <Container>
         <Content>
           <ImageWrapper>
