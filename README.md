@@ -1,4 +1,4 @@
-# Desafio Técnico - SPA Silva e Pelaquim Associados.
+# Desafio  - SPA Silva e Pelaquim Associados.
 
 # Desafio Prático
 
@@ -13,11 +13,11 @@ Desenvolver o Frontend de uma REDE SOCIAL FAKE para desenvolvedores
 
 <h1 align="center">
    <p>Login</p>
-    <img alt="SPA" title="#SPA-desafio" src="src/assets/img/ImagensProjeto/Mobile/Login.png"/>
+    <img alt="SPA" title="#SPA-desafio" src="src/assets/ImagensProjeto/Mobile/Login.png"/>
     <p>Forget Passoword</p>
-    <img alt="SPA" title="#SPA-desafio" src="src/assets/img/ImagensProjeto/Mobile/Forget.PNG"/>
+    <img alt="SPA" title="#SPA-desafio" src="src/assets/ImagensProjeto/Mobile/Forget.PNG"/>
     <p>Create Account</p>
-    <img alt="SPA" title="#SPA-desafio" src="src/assets/img/ImagensProjeto/Mobile/CreateAccount.PNG"/>
+    <img alt="SPA" title="#SPA-desafio" src="src/assets/ImagensProjeto/Mobile/CreateAccount.PNG"/>
 
 </h1>
 </details>
